@@ -5,8 +5,7 @@ class Follower extends React.Component{
     render() {
         const { follower } = this.props;
         return (  
-          <a href={follower.url}>{follower.login}</a>
-
+          <a href={follower.html_url}>{follower.login}</a>
         );
     }
 }

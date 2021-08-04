@@ -24,9 +24,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="content">
-        <h1>My App</h1>
-        <Card user={this.state.user} />
+      <div className="container">
+        <header>
+          <h1>Git User</h1>
+        </header>
+        <div className="card">
+          <Card user={this.state.user}/>
+        </div>
       </div>
     );
   }
